@@ -1,38 +1,24 @@
 #FLASK WEBSITE BY ARUSH KUMAR FOR AKHAND PRATAP MAURYA
 # Import Flask and required functions
-
 from flask import Flask, send_from_directory
 import os
-
 # Create Flask application
 app = Flask(__name__)
-
 # COMMON DESIGN FOR SERVICE PAGES
 # (Defined first so all pages can use it)
-
 def service_page(title, content):
-
     return f"""
-
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <title>{title}</title>
-
-
 <style>
-
 body{{
-
-
     background: linear-gradient(
         to bottom,
         #ff6b6b 0%,
         #ff6b6b 20%,
-
+        
         #ffd93d 20%,
         #ffd93d 40%,
 
@@ -47,11 +33,7 @@ body{{
     );
 
     color:white;
-
-
-
 }}
-
 
 .box{{
 
@@ -65,45 +47,30 @@ box-shadow:0px 5px 100px gray;
 
 }}
 
-
 h1{{
-
 text-align:center;
 color:#FF0000;
-
 }}
-
 
 h2{{
-
 margin-top:30px;
-
 }}
-
 
 li{{
-
 margin:10px;
-
 }}
-
 
 </style>
 
-
 </head>
-
 
 <body>
 
-
 <div class="box">
-
 
 <h1>
 {title}
 </h1>
-
 
 <p>
 
@@ -111,36 +78,22 @@ margin:10px;
 
 </p>
 
-
 <h2>
 Client Enquiry
 </h2>
-
 
 <p>
 For professional consultation, contact Akhand Pratap Maurya.
 </p>
 
-
 <!-- Google Form can be added here later -->
-
 
 </div>
 
-
 </body>
 
-
 </html>
-
 """
-
-
-
-# =====================================================
-# HOME PAGE
-# =====================================================
-
 
 @app.route("/")
 def home():
@@ -157,7 +110,6 @@ def home():
 AKHAND PRATAP MAURYA | Chartered Accountant
 </title>
 
-
 <style>
 
 *{
@@ -169,42 +121,37 @@ font-family:Allura;
 
 }
 
-
 body{
 
-background:linear-gradient(135deg,#003366,#3399ff);
-color:white;
-
+background:white;
+color:#003366;
 }
-
-
-
 header{
 
 text-align:center;
 padding:40px;
 background:rgba(0,0,0,0.3);
-
 }
-
-
 
 header h1{
 
 font-size:45px;
+}
+.logo{
+
+width:180px;
+height:180px;
+display:block;
+margin:0 auto 20px auto;
+object-fit:contain;
 
 }
-
-
 
 .about{
 
 padding:40px;
 text-align:center;
-
 }
-
-
 
 .about p{
 
@@ -212,8 +159,6 @@ font-size:20px;
 line-height:1.8;
 
 }
-
-
 
 .services{
 
@@ -223,8 +168,6 @@ gap:25px;
 padding:40px;
 
 }
-
-
 
 .card{
 
@@ -237,15 +180,11 @@ transition:0.3s;
 
 }
 
-
-
 .card:hover{
 
 transform:translateY(-10px);
 
 }
-
-
 
 a{
 
@@ -253,17 +192,15 @@ text-decoration:none;
 
 }
 
-
 </style>
-
 
 </head>
 
-
 <body>
 
-
 <header>
+#logo area code
+<img src="/static/LOGO.png" alt="CA India Logo" class="logo">
 
 <h1>
 AKHAND PRATAP MAURYA
