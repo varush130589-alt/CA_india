@@ -165,7 +165,7 @@ AKHAND PRATAP MAURYA | Chartered Accountant
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial;
+font-family:Allura;
 
 }
 
