@@ -199,7 +199,7 @@ text-decoration:none;
 <body>
 
 <header>
-#logo area code
+
 <img src="/static/LOGO.png" alt="CA India Logo" class="logo">
 
 <h1>
