@@ -55,13 +55,13 @@ body{{
 
 .box{{
 
-background:white;
-color:#003366;
-padding:40px;
-border-radius:25px;
+background:black;
+color:#FFFFFF;
+padding:70px;
+border-radius:20px;
 max-width:900px;
 margin:auto;
-box-shadow:0px 5px 20px gray;
+box-shadow:0px 5px 100px gray;
 
 }}
 
@@ -69,7 +69,7 @@ box-shadow:0px 5px 20px gray;
 h1{{
 
 text-align:center;
-color:#003366;
+color:#FF0000;
 
 }}
 
@@ -269,9 +269,24 @@ text-decoration:none;
 AKHAND PRATAP MAURYA
 </h1>
 
+
 <p>
-Chartered Accountant
+He is a qualified Chartered Accountant dedicated to providing
+professional financial and taxation services. With 2 years of experience in the
+field of accounting, taxation, compliance, and financial management, he helps
+individuals, startups, and businesses manage their financial responsibilities
+efficiently.
+
+He focuses on accuracy, transparency, and ethical practices while assisting
+clients with income tax returns, GST compliance, accounting solutions, audits,
+and financial planning. His approach combines professional knowledge with a
+commitment to delivering reliable and practical financial solutions.
+
+Through continuous learning and a client-focused approach, Akhand Pratap Maurya
+aims to simplify complex financial matters and help clients make informed
+decisions for their financial growth and success.
 </p>
+
 
 </header>
 
