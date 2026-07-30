@@ -1,24 +1,14 @@
-# =====================================================
-# AKHAND PRATAP MAURYA - CA WEBSITE
-# Flask Website
-# =====================================================
-
-
+#FLASK WEBSITE BY ARUSH KUMAR FOR AKHAND PRATAP MAURYA
 # Import Flask and required functions
+
 from flask import Flask, send_from_directory
 import os
-
 
 # Create Flask application
 app = Flask(__name__)
 
-
-
-# =====================================================
 # COMMON DESIGN FOR SERVICE PAGES
 # (Defined first so all pages can use it)
-# =====================================================
-
 
 def service_page(title, content):
 
@@ -37,9 +27,28 @@ def service_page(title, content):
 
 body{{
 
-background:#e6f2ff;
-font-family:Arial, sans-serif;
-padding:40px;
+
+    background: linear-gradient(
+        to bottom,
+        #ff6b6b 0%,
+        #ff6b6b 20%,
+
+        #ffd93d 20%,
+        #ffd93d 40%,
+
+        #6bcB77 40%,
+        #6bcB77 60%,
+
+        #4d96ff 60%,
+        #4d96ff 80%,
+
+        #9b5de5 80%,
+        #9b5de5 100%
+    );
+
+    color:white;
+
+
 
 }}
 
