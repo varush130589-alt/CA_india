@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import send_from_directory
 
 app = Flask(__name__)
 
@@ -289,6 +290,8 @@ Loading...
 
 </html>
 """
-
+@app.route('/google9cb04e0ef11d059f.html')
+def google_verification():
+    return send_from_directory('.', 'google9cb04e0ef11d059f.html')
 if __name__ == "__main__":
     app.run(debug=True)
