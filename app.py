@@ -200,7 +200,10 @@ text-decoration:none;
 
 <header>
 
+
 <img src="/static/LOGO.png" alt="CA India Logo" class="logo">
+
+
 
 <h1>
 AKHAND PRATAP MAURYA
